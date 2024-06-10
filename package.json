@@ -1,8 +1,8 @@
 {
   "name": "name-project",
   "scripts": {
-    "build": "webpack",
-    "dev": "webpack serve --env develop"
+    "build": "webpack --env develop=false",
+    "start": "webpack serve --env develop=true"
   },
   "devDependencies": {
     "css-loader": "^6.5.1",
